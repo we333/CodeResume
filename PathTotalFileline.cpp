@@ -63,7 +63,8 @@ long CountNumberOfTextLines( const char* dir )
 
 int main()
 {
-	cout<<"result = "<<CountNumberOfTextLines(".");
+
+	cout<<"result = "<<CountNumberOfTextLines("/cygdrive/c/workspace/share");
 
 	return 0;
 }
