@@ -1,1 +1,2 @@
 g++ -o test $1 -lpthread
+./test

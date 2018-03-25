@@ -114,7 +114,7 @@ long CountNumberOfTextLines( const char* dir )
 
 int main()
 {
-	cout<<"result = "<<CountNumberOfTextLines("/cygdrive/c/workspace/share/muduo");
+	cout<<"result = "<<CountNumberOfTextLines("../cpp_ds_algo/");
 
 	return 0;
 }

@@ -7,7 +7,7 @@
 
 using namespace std;
 
-#define LEN (100)
+#define LEN (1000)
 
 void f(int a[], int b[], int c[])
 {
@@ -50,7 +50,7 @@ string Fibonacci( unsigned int i )
 void TestFibonacci()
 {
 	// 何番目のフィボナッチ数を計算したいか、ここで指定しよう。
-	unsigned int i = 91;
+	unsigned int i = 256;
 	
 	cout << "Fibonacci( " << i << " ) = " << Fibonacci( i ) << endl;
 }
@@ -62,7 +62,6 @@ int main()
 	TestFibonacci();
 
 	unsigned long long ret = 7540113804746346429;
-	cout<<"ret = "<<ret<<endl;
 
 	return 0;
 }
